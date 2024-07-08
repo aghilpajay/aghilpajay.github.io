@@ -1,13 +1,104 @@
-<html>
-    <head>
-        <title>
-            aghil p
-        </title>
-    </head>
-    <body>
-        <center>welcome guys</center>
-        <p>Im aghil , Im new here. 
-            now im going to beging
-        </p>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+            background: #444;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        .profile {
+            text-align: center;
+        }
+        .profile img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+        .about, .projects, .contact {
+            margin: 20px 0;
+            padding: 20px;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Personal Website</h1>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="about" class="about">
+            <div class="profile">
+                <img src="profile.jpg" alt="Profile Picture">
+                <h2>John Doe</h2>
+                <p>Web Developer | Designer | Content Creator</p>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada.</p>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2>Projects</h2>
+            <p>Here are some of the projects I've worked on:</p>
+            <ul>
+                <li><strong>Project 1:</strong> Description of project 1.</li>
+                <li><strong>Project 2:</strong> Description of project 2.</li>
+                <li><strong>Project 3:</strong> Description of project 3.</li>
+            </ul>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact</h2>
+            <p>If you would like to get in touch, you can reach me at:</p>
+            <p>Email: <a href="mailto:john.doe@example.com">john.doe@example.com</a></p>
+            <p>Phone: (123) 456-7890</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 John Doe. All rights reserved.</p>
+    </footer>
+
+</body>
 </html>
